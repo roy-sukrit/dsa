@@ -63,8 +63,8 @@ class BinarySearch {
     }
 }
 
-const arr = [1, 2, 3, 4, 5, 5, 6, 7]
-const el = 5;
+const arr = [1, 2, 3, 4,4, 5, 5, 6, 7]
+const el = 7;
 const newObj = new BinarySearch(arr, el)
 
 console.log("target found at ", newObj.findValues())

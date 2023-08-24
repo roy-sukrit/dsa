@@ -26,9 +26,13 @@ class BinarySearch {
 
             if (target < array[middle]) {
                 endIndex = middle - 1;
+                console.log("endIndex", endIndex);
+
             }
             else if (target > array[middle]) {
                 startIndex = middle + 1;
+                console.log("startIndex", startIndex);
+
             }
 
             else {
@@ -45,7 +49,7 @@ class BinarySearch {
 }
 
 const arr = [2, 3, 5, 9, 14, 16, 18];
-const el = 15;
+const el = 13;
 const newObj = new BinarySearch(arr, el)
 
 console.log("target found at ", newObj.binarySearch())

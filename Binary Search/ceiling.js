@@ -32,7 +32,7 @@ class BinarySearch {
             }
 
             else {
-                return middle
+                return array[middle]
             }
 
         }
@@ -45,7 +45,7 @@ class BinarySearch {
 }
 
 const arr = [2, 3, 5, 9, 14, 16, 18];
-const el = 4;
+const el = 15;
 const newObj = new BinarySearch(arr, el)
 
-console.log("target found at ", newObj.binarySearch())
+console.log("target is ", newObj.binarySearch())
